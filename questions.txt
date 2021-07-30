@@ -2,28 +2,31 @@ name:
 date:
 
 1 - What is a List?
-
+a way to put more than one type of data in a sequence able to be called simply
 
 2 - How can you create an empty list? What about a pre-populated list?
-
+list=[] or a function 
+and a list you premade to use later
 
 3 - How do you access a list?
-
+use it in a print statement
 
 4 - How do you add items to a list? Remove items?
-
+insert, append, remove
 
 5 - What happens if you got out of bounds with a list?
-
+error
 
 6 - Why are lists useful to us, as opposed to strings?
-
+it'll all print out at once anywhere in the code that you want
 
 7 - Where a position in a string represents a character, a position in a list represents a ______?
-
+object
 
 8 - Which of the methods for lists return a value? Which methods for lists operate on the list (change it)?
 Documentation: https://www.w3schools.com/python/python_lists_methods.asp
-
+copy, count, index
+append,clear,extend, insert,pop, remove, reverse, sort.
 
 9 - Why might you start with an empty list when writing a program?
+to have a clear playing feild to put what you might need in there  or take out, as you go down your code.

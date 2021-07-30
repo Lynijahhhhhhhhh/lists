@@ -1,5 +1,5 @@
-# name:
-# author:
+# name: Lynijah Russell
+# author: LYNIJAH
 
 # -------------------- Section 1 ------------------------- #
 # ------------------ List Creation ----------------------- #
@@ -15,8 +15,10 @@ print('Creating an Empty List' '\n')
 #   2. Print the lists.
 #
 # WRITE CODE BELOW
-
-
+listOne = []
+listTwo = list()
+print(listOne)
+print(listTwo)
 print('\n' 'Creating a Pre-Populated List' '\n')
 # 2. Creating a Pre-Populated List
 # ------------------------------------------------------------
@@ -34,6 +36,15 @@ print('\n' 'Creating a Pre-Populated List' '\n')
 #
 # WRITE CODE BELOW
 integers = [1, 15, -4, -26, 34]
+floats = [1.1,2.2,3.3,4.4,5.5]
+boolean=[1==2, 3==4,1==1]
+animals=["cat","bunny","goldfish"]
+dataType=[11,3.1,3==1]
+print(integers)
+print(floats)
+print(boolean)
+print(animals)
+print(dataType)
 
 
 # -------------------- Section 2 ------------------------- #
@@ -55,8 +66,18 @@ print('Accessing and Modifying a List' '\n')
 #
 # WRITE CODE BELOW
 integers[2] = 44
+floats[4]= 4.5
+boolean[0]= not boolean [0]
+animals[0]= "bobcat"
+dataType[1]= 3==1
 
-
+print(
+    f'integers / {integers}' '\n'
+    f'floats / {floats}' '\n'
+    f'boolean / {boolean}' '\n'
+    f'animals / {animals}' '\n'
+    f'dataType / {dataType}' '\n'
+)
 print('\n' 'Append, Insert, and Remove' '\n')
 # 2. Accessing and Modifying a List
 # ------------------------------------------------------------
@@ -73,8 +94,17 @@ print('\n' 'Append, Insert, and Remove' '\n')
 #
 # WRITE CODE BELOW
 integers.append(25)
-
-
+floats.append(2.5)
+boolean.remove(True)
+animals.insert(1, "my brother")
+dataType.insert((len(dataType)-1)//2,False)
+print(
+    f'integers / {integers}' '\n'
+    f'floats / {floats}' '\n'
+    f'boolean / {boolean}' '\n'
+    f'animals / {animals}' '\n'
+    f'dataType / {dataType}' '\n'
+)
 print('\n' 'List Concatenation' '\n')
 # 3. List Concatenation
 # ------------------------------------------------------------
@@ -91,14 +121,13 @@ print('\n' 'List Concatenation' '\n')
 #   Examples are below for reference
 #
 # WRITE CODE BELOW
-example_concatenation = [1, 2, 3] + ['cat', 'dog']
-example_duplication = ['cat'] * 5
-print(
-    '\n'
-    f'example_concatenation | {example_concatenation}' '\n'
-    f'example_duplication | {example_duplication}' '\n'
-)
 
+num=integers+floats
+animals2=animals*3
+print(
+    f'num / {num}' '\n'
+    f'animals2 / {animals2}' '\n'
+)
 
 # -------------------- Section 3 ------------------------- #
 # --------------------- Looping -------------------------- #
@@ -115,6 +144,14 @@ print('Looping' '\n')
 #   An example has been shown below:
 #
 # WRITE CODE BELOW
+print("via in range(len(aniamls))")
+for i in range(len(animals)):
+    print(animals[i])
+print()
+
+print('for integer in intergers ')
+for integer in integers:
+    print(integers)
 
 
 # -------------------- Section 4 ------------------------- #
